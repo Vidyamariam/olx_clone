@@ -1,0 +1,86 @@
+.profileMaidiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0f2f5;
+    padding-top: 100px
+}
+  
+  .myProfile_left, .myProfile_right {
+    width: 45%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profiledetails {
+    text-align: center;
+  }
+  
+  .profiledetails h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .followers {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .followers p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .myProfile_left button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #002f34;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .myProfile_right {
+    text-align: center;
+  }
+  
+  .myProfile_adDetails {
+    margin-top: 20px;
+  }
+  
+  .myProfile_adDetails p {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  .myProfile_adDetails p1 {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .myProfile_adDetails button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(144, 213, 213);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

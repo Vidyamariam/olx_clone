@@ -1,0 +1,113 @@
+.moreView {
+    margin: 16px 16px 24px;
+    padding: 16px 16px 32px;
+    background-color: #ebeeef;
+    border-radius: 4px;
+   
+  }
+  
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .heading :first-child {
+    font-size: 24px;
+    color: #002f34;
+  }
+  
+  .heading :last-child {
+    font-size: 14px;
+    color: #002f34;
+  }
+  
+  /* .recommendations .cards {
+    display: flex;
+  }
+   */
+   .moreView .cards {
+    display: flex;
+    justify-content: flex-start; /* Adjust alignment as needed */
+    flex-wrap: wrap; /* Allow cards to wrap onto new lines */
+    gap: 15px; /* Space between cards */
+  }
+  
+  .card {
+    padding: 13px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #c9c4c4;
+    position: relative; /* Ensure relative positioning */
+    flex: 1 0 calc(25% - 15px); /* 25% width for each card with gap */
+    max-width: calc(25% - 15px); /* Adjust maximum width for responsiveness */
+    margin-bottom: 15px; /* Space between rows */
+  }
+  
+  .card .image {
+    position: relative;
+  }
+  
+  .card .image img {
+    width: 250px;
+    height: 150px;
+    border-radius: 5px 5px 0 0; /* Rounded corners for top */
+  }
+  
+  .favorite {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .heartIcon {
+    color: black;
+  }
+  
+  .content {
+    padding: 10px;
+  }
+
+  .content .rate{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .content .rate {
+    margin: 0;
+  }
+  
+  .content .name {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .date {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-top: 1px solid #e0e0e0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  
+  .cardImg {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  .recommendations {
+    margin: 16px 16px 24px;
+  }
+  
+  .recommendations .heading span {
+    font-size: 24px;
+    color: #002f34;
+  }
+  
